@@ -555,6 +555,7 @@ ifeq ($(platform), emscripten)
 else
    FLAGS += -O0 -g
 endif
+endif
 
 ifneq (,$(findstring msvc,$(platform)))
    ifeq ($(DEBUG), 1)
