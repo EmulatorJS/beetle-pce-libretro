@@ -2880,6 +2880,962 @@ struct retro_core_options_v2 options_be = {
    option_defs_be
 };
 
+/* RETRO_LANGUAGE_BG */
+
+#define CATEGORY_VIDEO_LABEL_BG NULL
+#define CATEGORY_VIDEO_INFO_0_BG NULL
+#define CATEGORY_AUDIO_LABEL_BG NULL
+#define CATEGORY_AUDIO_INFO_0_BG NULL
+#define CATEGORY_INPUT_LABEL_BG NULL
+#define CATEGORY_INPUT_INFO_0_BG NULL
+#define CATEGORY_HACKS_LABEL_BG NULL
+#define CATEGORY_HACKS_INFO_0_BG NULL
+#define CATEGORY_CD_LABEL_BG NULL
+#define CATEGORY_CD_INFO_0_BG NULL
+#define PCE_PALETTE_LABEL_BG NULL
+#define PCE_PALETTE_INFO_0_BG NULL
+#define OPTION_VAL_RGB_BG NULL
+#define OPTION_VAL_COMPOSITE_BG NULL
+#define PCE_ASPECT_RATIO_LABEL_BG NULL
+#define PCE_ASPECT_RATIO_INFO_0_BG NULL
+#define OPTION_VAL_AUTO_BG NULL
+#define OPTION_VAL_6_5_BG NULL
+#define OPTION_VAL_4_3_BG NULL
+#define OPTION_VAL_UNCORRECTED_BG NULL
+#define PCE_SCALING_LABEL_BG NULL
+#define PCE_SCALING_INFO_0_BG NULL
+#define OPTION_VAL_LORES_BG NULL
+#define OPTION_VAL_HIRES_BG NULL
+#define PCE_HIRES_BLEND_LABEL_BG NULL
+#define PCE_HIRES_BLEND_INFO_0_BG NULL
+#define PCE_H_OVERSCAN_LABEL_BG NULL
+#define PCE_H_OVERSCAN_INFO_0_BG NULL
+#define PCE_INITIAL_SCANLINE_LABEL_BG NULL
+#define PCE_INITIAL_SCANLINE_INFO_0_BG NULL
+#define OPTION_VAL_3_BG NULL
+#define PCE_LAST_SCANLINE_LABEL_BG NULL
+#define PCE_LAST_SCANLINE_INFO_0_BG NULL
+#define OPTION_VAL_242_BG NULL
+#define PCE_PSGREVISION_LABEL_BG NULL
+#define PCE_PSGREVISION_INFO_0_BG NULL
+#define OPTION_VAL_HUC6280_BG NULL
+#define OPTION_VAL_HUC6280A_BG NULL
+#define PCE_RESAMP_QUALITY_LABEL_BG NULL
+#define PCE_RESAMP_QUALITY_INFO_0_BG NULL
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_BG NULL
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_BG NULL
+#define PCE_MOUSE_SENSITIVITY_LABEL_BG NULL
+#define PCE_MOUSE_SENSITIVITY_INFO_0_BG NULL
+#define OPTION_VAL_0_125_BG NULL
+#define OPTION_VAL_0_250_BG NULL
+#define OPTION_VAL_0_375_BG NULL
+#define OPTION_VAL_0_500_BG NULL
+#define OPTION_VAL_0_625_BG NULL
+#define OPTION_VAL_0_750_BG NULL
+#define OPTION_VAL_0_875_BG NULL
+#define OPTION_VAL_1_000_BG NULL
+#define OPTION_VAL_1_125_BG NULL
+#define OPTION_VAL_1_25_BG NULL
+#define OPTION_VAL_1_50_BG NULL
+#define OPTION_VAL_1_75_BG NULL
+#define OPTION_VAL_2_00_BG NULL
+#define OPTION_VAL_2_25_BG NULL
+#define OPTION_VAL_2_50_BG NULL
+#define OPTION_VAL_2_75_BG NULL
+#define OPTION_VAL_3_00_BG NULL
+#define OPTION_VAL_3_25_BG NULL
+#define OPTION_VAL_3_50_BG NULL
+#define OPTION_VAL_3_75_BG NULL
+#define OPTION_VAL_4_00_BG NULL
+#define OPTION_VAL_4_25_BG NULL
+#define OPTION_VAL_4_50_BG NULL
+#define OPTION_VAL_4_75_BG NULL
+#define OPTION_VAL_5_00_BG NULL
+#define PCE_UP_DOWN_ALLOWED_LABEL_BG NULL
+#define PCE_UP_DOWN_ALLOWED_INFO_0_BG NULL
+#define PCE_DISABLE_SOFTRESET_LABEL_BG NULL
+#define PCE_DISABLE_SOFTRESET_INFO_0_BG NULL
+#define PCE_MULTITAP_LABEL_BG NULL
+#define PCE_MULTITAP_INFO_0_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_BG NULL
+#define OPTION_VAL_2_BUTTONS_BG NULL
+#define OPTION_VAL_6_BUTTONS_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P3_INFO_0_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P4_LABEL_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P4_INFO_0_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P5_LABEL_BG NULL
+#define PCE_DEFAULT_JOYPAD_TYPE_P5_INFO_0_BG NULL
+#define PCE_TURBO_TOGGLING_LABEL_BG NULL
+#define PCE_TURBO_TOGGLING_INFO_0_BG NULL
+#define OPTION_VAL_TOGGLE_BG NULL
+#define OPTION_VAL_ALWAYS_BG NULL
+#define PCE_TURBO_TOGGLE_HOTKEY_LABEL_BG NULL
+#define PCE_TURBO_TOGGLE_HOTKEY_INFO_0_BG NULL
+#define PCE_TURBO_DELAY_LABEL_BG NULL
+#define PCE_TURBO_DELAY_INFO_0_BG NULL
+#define OPTION_VAL_FAST_BG NULL
+#define OPTION_VAL_MEDIUM_BG NULL
+#define OPTION_VAL_SLOW_BG NULL
+#define PCE_P0_TURBO_I_ENABLE_LABEL_BG NULL
+#define PCE_P0_TURBO_II_ENABLE_LABEL_BG NULL
+#define PCE_P1_TURBO_I_ENABLE_LABEL_BG NULL
+#define PCE_P1_TURBO_II_ENABLE_LABEL_BG NULL
+#define PCE_P2_TURBO_I_ENABLE_LABEL_BG NULL
+#define PCE_P2_TURBO_II_ENABLE_LABEL_BG NULL
+#define PCE_P3_TURBO_I_ENABLE_LABEL_BG NULL
+#define PCE_P3_TURBO_II_ENABLE_LABEL_BG NULL
+#define PCE_P4_TURBO_I_ENABLE_LABEL_BG NULL
+#define PCE_P4_TURBO_II_ENABLE_LABEL_BG NULL
+#define PCE_CDIMAGECACHE_LABEL_BG NULL
+#define PCE_CDIMAGECACHE_INFO_0_BG NULL
+#define PCE_CDBIOS_LABEL_BG NULL
+#define PCE_CDBIOS_INFO_0_BG NULL
+#define OPTION_VAL_GAMES_EXPRESS_BG NULL
+#define OPTION_VAL_SYSTEM_CARD_1_BG NULL
+#define OPTION_VAL_SYSTEM_CARD_2_BG NULL
+#define OPTION_VAL_SYSTEM_CARD_3_BG NULL
+#define OPTION_VAL_SYSTEM_CARD_2_US_BG NULL
+#define OPTION_VAL_SYSTEM_CARD_3_US_BG NULL
+#define PCE_ARCADECARD_LABEL_BG NULL
+#define PCE_ARCADECARD_INFO_0_BG NULL
+#define PCE_CDSPEED_LABEL_BG NULL
+#define PCE_CDSPEED_LABEL_CAT_BG NULL
+#define PCE_CDSPEED_INFO_0_BG NULL
+#define PCE_ADPCMEXTRAPREC_LABEL_BG NULL
+#define PCE_ADPCMEXTRAPREC_LABEL_CAT_BG NULL
+#define PCE_ADPCMEXTRAPREC_INFO_0_BG NULL
+#define OPTION_VAL_10_BIT_BG NULL
+#define OPTION_VAL_12_BIT_BG NULL
+#define PCE_ADPCMVOLUME_LABEL_BG NULL
+#define PCE_ADPCMVOLUME_LABEL_CAT_BG NULL
+#define PCE_ADPCMVOLUME_INFO_0_BG NULL
+#define PCE_ADPCMVOLUME_INFO_1_BG NULL
+#define PCE_CDDAVOLUME_LABEL_BG NULL
+#define PCE_CDDAVOLUME_LABEL_CAT_BG NULL
+#define PCE_CDPSGVOLUME_LABEL_BG NULL
+#define PCE_CDPSGVOLUME_LABEL_CAT_BG NULL
+#define PCE_NOSPRITELIMIT_LABEL_BG NULL
+#define PCE_NOSPRITELIMIT_INFO_0_BG NULL
+#define PCE_OCMULTIPLIER_LABEL_BG NULL
+#define PCE_OCMULTIPLIER_INFO_0_BG NULL
+
+struct retro_core_option_v2_category option_cats_bg[] = {
+   {
+      "video",
+      CATEGORY_VIDEO_LABEL_BG,
+      CATEGORY_VIDEO_INFO_0_BG
+   },
+   {
+      "audio",
+      CATEGORY_AUDIO_LABEL_BG,
+      CATEGORY_AUDIO_INFO_0_BG
+   },
+   {
+      "input",
+      CATEGORY_INPUT_LABEL_BG,
+      CATEGORY_INPUT_INFO_0_BG
+   },
+   {
+      "hacks",
+      CATEGORY_HACKS_LABEL_BG,
+      CATEGORY_HACKS_INFO_0_BG
+   },
+   {
+      "cd",
+      CATEGORY_CD_LABEL_BG,
+      CATEGORY_CD_INFO_0_BG
+   },
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_bg[] = {
+   {
+      "pce_palette",
+      PCE_PALETTE_LABEL_BG,
+      NULL,
+      PCE_PALETTE_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "RGB", OPTION_VAL_RGB_BG },
+         { "Composite", OPTION_VAL_COMPOSITE_BG },
+         { NULL, NULL},
+      },
+      "RGB"
+   },
+   {
+      "pce_aspect_ratio",
+      PCE_ASPECT_RATIO_LABEL_BG,
+      NULL,
+      PCE_ASPECT_RATIO_INFO_0_BG,
+      NULL, 
+      "video",
+      {
+         { "auto", OPTION_VAL_AUTO_BG },
+         { "6:5", OPTION_VAL_6_5_BG },
+         { "4:3", OPTION_VAL_4_3_BG },
+         { "uncorrected", OPTION_VAL_UNCORRECTED_BG },
+         { NULL, NULL},
+      },
+      "auto"
+   },
+   {
+      "pce_scaling",
+      PCE_SCALING_LABEL_BG,
+      NULL,
+      PCE_SCALING_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "auto", OPTION_VAL_AUTO_BG },
+         { "lores", OPTION_VAL_LORES_BG },
+         { "hires", OPTION_VAL_HIRES_BG },
+         { NULL, NULL},
+      },
+      "auto"
+   },
+   {
+      "pce_hires_blend",
+      PCE_HIRES_BLEND_LABEL_BG,
+      NULL,
+      PCE_HIRES_BLEND_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_h_overscan",
+      PCE_H_OVERSCAN_LABEL_BG,
+      NULL,
+      PCE_H_OVERSCAN_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "auto", OPTION_VAL_AUTO_BG },
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "auto"
+   },
+   {
+      "pce_initial_scanline",
+      PCE_INITIAL_SCANLINE_LABEL_BG,
+      NULL,
+      PCE_INITIAL_SCANLINE_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", OPTION_VAL_3_BG },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { "10", NULL },
+         { "11", NULL },
+         { "12", NULL },
+         { "13", NULL },
+         { "14", NULL },
+         { "15", NULL },
+         { "16", NULL },
+         { "17", NULL },
+         { "18", NULL },
+         { "19", NULL },
+         { "20", NULL },
+         { "21", NULL },
+         { "22", NULL },
+         { "23", NULL },
+         { "24", NULL },
+         { "25", NULL },
+         { "26", NULL },
+         { "27", NULL },
+         { "28", NULL },
+         { "29", NULL },
+         { "30", NULL },
+         { "31", NULL },
+         { "32", NULL },
+         { "33", NULL },
+         { "34", NULL },
+         { "35", NULL },
+         { "36", NULL },
+         { "37", NULL },
+         { "38", NULL },
+         { "39", NULL },
+         { "40", NULL },
+         { NULL, NULL},
+      },
+      "3"
+   },
+   {
+      "pce_last_scanline",
+      PCE_LAST_SCANLINE_LABEL_BG,
+      NULL,
+      PCE_LAST_SCANLINE_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "208", NULL },
+         { "209", NULL },
+         { "210", NULL },
+         { "211", NULL },
+         { "212", NULL },
+         { "213", NULL },
+         { "214", NULL },
+         { "215", NULL },
+         { "216", NULL },
+         { "217", NULL },
+         { "218", NULL },
+         { "219", NULL },
+         { "220", NULL },
+         { "221", NULL },
+         { "222", NULL },
+         { "223", NULL },
+         { "224", NULL },
+         { "225", NULL },
+         { "226", NULL },
+         { "227", NULL },
+         { "228", NULL },
+         { "229", NULL },
+         { "230", NULL },
+         { "231", NULL },
+         { "232", NULL },
+         { "233", NULL },
+         { "234", NULL },
+         { "235", NULL },
+         { "236", NULL },
+         { "237", NULL },
+         { "238", NULL },
+         { "239", NULL },
+         { "240", NULL },
+         { "241", NULL },
+         { "242", OPTION_VAL_242_BG },
+         { NULL, NULL},
+      },
+      "242"
+   },
+   {
+      "pce_psgrevision",
+      PCE_PSGREVISION_LABEL_BG,
+      NULL,
+      PCE_PSGREVISION_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "HuC6280", OPTION_VAL_HUC6280_BG },
+         { "HuC6280A", OPTION_VAL_HUC6280A_BG },
+         { "auto", OPTION_VAL_AUTO_BG },
+         { NULL, NULL},
+      },
+      "HuC6280A"
+   },
+   {
+      "pce_resamp_quality",
+      PCE_RESAMP_QUALITY_LABEL_BG,
+      NULL,
+      PCE_RESAMP_QUALITY_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", OPTION_VAL_3_BG },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { NULL, NULL},
+      },
+      "3"
+   },
+   {
+      "pce_show_advanced_input_settings",
+      PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_BG,
+      NULL,
+      PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_BG,
+      NULL,
+      NULL,
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_mouse_sensitivity",
+      PCE_MOUSE_SENSITIVITY_LABEL_BG,
+      NULL,
+      PCE_MOUSE_SENSITIVITY_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "0.125", OPTION_VAL_0_125_BG },
+         { "0.250", OPTION_VAL_0_250_BG },
+         { "0.375", OPTION_VAL_0_375_BG },
+         { "0.500", OPTION_VAL_0_500_BG },
+         { "0.625", OPTION_VAL_0_625_BG },
+         { "0.750", OPTION_VAL_0_750_BG },
+         { "0.875", OPTION_VAL_0_875_BG },
+         { "1.000", OPTION_VAL_1_000_BG },
+         { "1.125", OPTION_VAL_1_125_BG },
+         { "1.25", OPTION_VAL_1_25_BG },
+         { "1.50", OPTION_VAL_1_50_BG },
+         { "1.75", OPTION_VAL_1_75_BG },
+         { "2.00", OPTION_VAL_2_00_BG },
+         { "2.25", OPTION_VAL_2_25_BG },
+         { "2.50", OPTION_VAL_2_50_BG },
+         { "2.75", OPTION_VAL_2_75_BG },
+         { "3.00", OPTION_VAL_3_00_BG },
+         { "3.25", OPTION_VAL_3_25_BG },
+         { "3.50", OPTION_VAL_3_50_BG },
+         { "3.75", OPTION_VAL_3_75_BG },
+         { "4.00", OPTION_VAL_4_00_BG },
+         { "4.25", OPTION_VAL_4_25_BG },
+         { "4.50", OPTION_VAL_4_50_BG },
+         { "4.75", OPTION_VAL_4_75_BG },
+         { "5.00", OPTION_VAL_5_00_BG },
+         { NULL, NULL},
+      },
+      "1.25"
+   },
+   {
+      "pce_up_down_allowed",
+      PCE_UP_DOWN_ALLOWED_LABEL_BG,
+      NULL,
+      PCE_UP_DOWN_ALLOWED_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_disable_softreset",
+      PCE_DISABLE_SOFTRESET_LABEL_BG,
+      NULL,
+      PCE_DISABLE_SOFTRESET_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_multitap",
+      PCE_MULTITAP_LABEL_BG,
+      NULL,
+      PCE_MULTITAP_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "enabled", NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "enabled"
+   },
+   {
+      "pce_default_joypad_type_p1",
+      PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_BG,
+      NULL,
+      PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "2 Buttons", OPTION_VAL_2_BUTTONS_BG },
+         { "6 Buttons", OPTION_VAL_6_BUTTONS_BG },
+         { NULL, NULL},
+      },
+      "2 Buttons"
+   },
+   {
+      "pce_default_joypad_type_p2",
+      PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_BG,
+      NULL,
+      PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "2 Buttons", OPTION_VAL_2_BUTTONS_BG },
+         { "6 Buttons", OPTION_VAL_6_BUTTONS_BG },
+         { NULL, NULL},
+      },
+      "2 Buttons"
+   },
+   {
+      "pce_default_joypad_type_p3",
+      PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_BG,
+      NULL,
+      PCE_DEFAULT_JOYPAD_TYPE_P3_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "2 Buttons", OPTION_VAL_2_BUTTONS_BG },
+         { "6 Buttons", OPTION_VAL_6_BUTTONS_BG },
+         { NULL, NULL},
+      },
+      "2 Buttons"
+   },
+   {
+      "pce_default_joypad_type_p4",
+      PCE_DEFAULT_JOYPAD_TYPE_P4_LABEL_BG,
+      NULL,
+      PCE_DEFAULT_JOYPAD_TYPE_P4_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "2 Buttons", OPTION_VAL_2_BUTTONS_BG },
+         { "6 Buttons", OPTION_VAL_6_BUTTONS_BG },
+         { NULL, NULL},
+      },
+      "2 Buttons"
+   },
+   {
+      "pce_default_joypad_type_p5",
+      PCE_DEFAULT_JOYPAD_TYPE_P5_LABEL_BG,
+      NULL,
+      PCE_DEFAULT_JOYPAD_TYPE_P5_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "2 Buttons", OPTION_VAL_2_BUTTONS_BG },
+         { "6 Buttons", OPTION_VAL_6_BUTTONS_BG },
+         { NULL, NULL},
+      },
+      "2 Buttons"
+   },
+   {
+      "pce_Turbo_Toggling",
+      PCE_TURBO_TOGGLING_LABEL_BG,
+      NULL,
+      PCE_TURBO_TOGGLING_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "toggle", OPTION_VAL_TOGGLE_BG },
+         { "always", OPTION_VAL_ALWAYS_BG },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_turbo_toggle_hotkey",
+      PCE_TURBO_TOGGLE_HOTKEY_LABEL_BG,
+      NULL,
+      PCE_TURBO_TOGGLE_HOTKEY_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_Turbo_Delay",
+      PCE_TURBO_DELAY_LABEL_BG,
+      NULL,
+      PCE_TURBO_DELAY_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "Fast", OPTION_VAL_FAST_BG },
+         { "Medium", OPTION_VAL_MEDIUM_BG },
+         { "Slow", OPTION_VAL_SLOW_BG },
+         { NULL, NULL},
+      },
+      "Fast"
+   },
+   {
+      "pce_p0_turbo_I_enable",
+      PCE_P0_TURBO_I_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p0_turbo_II_enable",
+      PCE_P0_TURBO_II_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p1_turbo_I_enable",
+      PCE_P1_TURBO_I_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p1_turbo_II_enable",
+      PCE_P1_TURBO_II_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p2_turbo_I_enable",
+      PCE_P2_TURBO_I_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p2_turbo_II_enable",
+      PCE_P2_TURBO_II_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p3_turbo_I_enable",
+      PCE_P3_TURBO_I_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p3_turbo_II_enable",
+      PCE_P3_TURBO_II_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p4_turbo_I_enable",
+      PCE_P4_TURBO_I_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_p4_turbo_II_enable",
+      PCE_P4_TURBO_II_ENABLE_LABEL_BG,
+      NULL,
+      NULL,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_cdimagecache",
+      PCE_CDIMAGECACHE_LABEL_BG,
+      NULL,
+      PCE_CDIMAGECACHE_INFO_0_BG,
+      NULL,
+      "cd",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_cdbios",
+      PCE_CDBIOS_LABEL_BG,
+      NULL,
+      PCE_CDBIOS_INFO_0_BG,
+      NULL,
+      "cd",
+      {
+         { "Games Express", OPTION_VAL_GAMES_EXPRESS_BG },
+         { "System Card 1", OPTION_VAL_SYSTEM_CARD_1_BG },
+         { "System Card 2", OPTION_VAL_SYSTEM_CARD_2_BG },
+         { "System Card 3", OPTION_VAL_SYSTEM_CARD_3_BG },
+         { "System Card 2 US", OPTION_VAL_SYSTEM_CARD_2_US_BG },
+         { "System Card 3 US", OPTION_VAL_SYSTEM_CARD_3_US_BG },
+         { NULL, NULL},
+      },
+      "System Card 3"
+   },
+   {
+      "pce_arcadecard",
+      PCE_ARCADECARD_LABEL_BG,
+      NULL,
+      PCE_ARCADECARD_INFO_0_BG,
+      NULL,
+      "cd",
+      {
+         { "enabled", NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "enabled"
+   },
+   {
+      "pce_cdspeed",
+      PCE_CDSPEED_LABEL_BG,
+      PCE_CDSPEED_LABEL_CAT_BG,
+      PCE_CDSPEED_INFO_0_BG,
+      NULL,
+      "cd",
+      {
+         { "1", NULL },
+         { "2", NULL },
+         { "4", NULL },
+         { "8", NULL },
+         { NULL, NULL},
+      },
+      "1"
+   },
+   {
+      "pce_adpcmextraprec",
+      PCE_ADPCMEXTRAPREC_LABEL_BG,
+      PCE_ADPCMEXTRAPREC_LABEL_CAT_BG,
+      PCE_ADPCMEXTRAPREC_INFO_0_BG,
+      NULL,
+      "cd",
+      {
+         { "10-bit", OPTION_VAL_10_BIT_BG },
+         { "12-bit", OPTION_VAL_12_BIT_BG },
+         { NULL, NULL},
+      },
+      "10-bit"
+   },
+   {
+      "pce_adpcmvolume",
+      PCE_ADPCMVOLUME_LABEL_BG,
+      PCE_ADPCMVOLUME_LABEL_CAT_BG,
+      PCE_ADPCMVOLUME_INFO_0_BG,
+      PCE_ADPCMVOLUME_INFO_1_BG,
+      "cd",
+      {
+         { "0", NULL },
+         { "10", NULL },
+         { "20", NULL },
+         { "30", NULL },
+         { "40", NULL },
+         { "50", NULL },
+         { "60", NULL },
+         { "70", NULL },
+         { "80", NULL },
+         { "90", NULL },
+         { "100", NULL },
+         { "110", NULL },
+         { "120", NULL },
+         { "130", NULL },
+         { "140", NULL },
+         { "150", NULL },
+         { "160", NULL },
+         { "170", NULL },
+         { "180", NULL },
+         { "190", NULL },
+         { "200", NULL },
+         { NULL, NULL},
+      },
+      "100"
+   },
+   {
+      "pce_cddavolume",
+      PCE_CDDAVOLUME_LABEL_BG,
+      PCE_CDDAVOLUME_LABEL_CAT_BG,
+      PCE_ADPCMVOLUME_INFO_0_BG,
+      PCE_ADPCMVOLUME_INFO_1_BG,
+      "cd",
+      {
+         { "0", NULL },
+         { "10", NULL },
+         { "20", NULL },
+         { "30", NULL },
+         { "40", NULL },
+         { "50", NULL },
+         { "60", NULL },
+         { "70", NULL },
+         { "80", NULL },
+         { "90", NULL },
+         { "100", NULL },
+         { "110", NULL },
+         { "120", NULL },
+         { "130", NULL },
+         { "140", NULL },
+         { "150", NULL },
+         { "160", NULL },
+         { "170", NULL },
+         { "180", NULL },
+         { "190", NULL },
+         { "200", NULL },
+         { NULL, NULL},
+      },
+      "100"
+   },
+   {
+      "pce_cdpsgvolume",
+      PCE_CDPSGVOLUME_LABEL_BG,
+      PCE_CDPSGVOLUME_LABEL_CAT_BG,
+      PCE_ADPCMVOLUME_INFO_0_BG,
+      PCE_ADPCMVOLUME_INFO_1_BG,
+      "cd",
+      {
+         { "0", NULL },
+         { "10", NULL },
+         { "20", NULL },
+         { "30", NULL },
+         { "40", NULL },
+         { "50", NULL },
+         { "60", NULL },
+         { "70", NULL },
+         { "80", NULL },
+         { "90", NULL },
+         { "100", NULL },
+         { "110", NULL },
+         { "120", NULL },
+         { "130", NULL },
+         { "140", NULL },
+         { "150", NULL },
+         { "160", NULL },
+         { "170", NULL },
+         { "180", NULL },
+         { "190", NULL },
+         { "200", NULL },
+         { NULL, NULL},
+      },
+      "100"
+   },
+   {
+      "pce_nospritelimit",
+      PCE_NOSPRITELIMIT_LABEL_BG,
+      NULL,
+      PCE_NOSPRITELIMIT_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "disabled", NULL },
+         { "enabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "pce_ocmultiplier",
+      PCE_OCMULTIPLIER_LABEL_BG,
+      NULL,
+      PCE_OCMULTIPLIER_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { "10", NULL },
+         { "20", NULL },
+         { "30", NULL },
+         { "40", NULL },
+         { "50", NULL },
+         { NULL, NULL},
+      },
+      "1"
+   },
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_bg = {
+   option_cats_bg,
+   option_defs_bg
+};
+
 /* RETRO_LANGUAGE_CA */
 
 #define CATEGORY_VIDEO_LABEL_CA "Vídeo"
@@ -3839,15 +4795,15 @@ struct retro_core_options_v2 options_ca = {
 /* RETRO_LANGUAGE_CHS */
 
 #define CATEGORY_VIDEO_LABEL_CHS "视频"
-#define CATEGORY_VIDEO_INFO_0_CHS NULL
+#define CATEGORY_VIDEO_INFO_0_CHS "配置宽高比、显示裁剪和其他图像输出参数。"
 #define CATEGORY_AUDIO_LABEL_CHS "音频"
-#define CATEGORY_AUDIO_INFO_0_CHS NULL
+#define CATEGORY_AUDIO_INFO_0_CHS "配置模拟音频设备"
 #define CATEGORY_INPUT_LABEL_CHS "输入"
-#define CATEGORY_INPUT_INFO_0_CHS NULL
+#define CATEGORY_INPUT_INFO_0_CHS "配置光枪、鼠标和控制器输入。"
 #define CATEGORY_HACKS_LABEL_CHS "模拟修改"
 #define CATEGORY_HACKS_INFO_0_CHS "配置处理器超时和模拟精确参数，影响低级性能和兼容性。"
 #define CATEGORY_CD_LABEL_CHS NULL
-#define CATEGORY_CD_INFO_0_CHS NULL
+#define CATEGORY_CD_INFO_0_CHS "配置与 PC Engine CD 仿真相关的设置。"
 #define PCE_PALETTE_LABEL_CHS "色板"
 #define PCE_PALETTE_INFO_0_CHS "使用复合设计模式尝试复现原始的控制台显示，在部分游戏中可以显示更多细节"
 #define OPTION_VAL_RGB_CHS NULL
@@ -3857,8 +4813,8 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_AUTO_CHS "自动"
 #define OPTION_VAL_6_5_CHS NULL
 #define OPTION_VAL_4_3_CHS NULL
-#define OPTION_VAL_UNCORRECTED_CHS NULL
-#define PCE_SCALING_LABEL_CHS NULL
+#define OPTION_VAL_UNCORRECTED_CHS "未校正"
+#define PCE_SCALING_LABEL_CHS "分辨率缩放"
 #define PCE_SCALING_INFO_0_CHS NULL
 #define OPTION_VAL_LORES_CHS NULL
 #define OPTION_VAL_HIRES_CHS "高分辨率"
@@ -13475,8 +14431,8 @@ struct retro_core_options_v2 options_es = {
 #define PCE_MULTITAP_INFO_0_FA NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_FA NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_FA NULL
-#define OPTION_VAL_2_BUTTONS_FA NULL
-#define OPTION_VAL_6_BUTTONS_FA NULL
+#define OPTION_VAL_2_BUTTONS_FA "۲ دکمه"
+#define OPTION_VAL_6_BUTTONS_FA "۶ دکمه"
 #define PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_FA NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_FA NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_FA NULL
@@ -13488,14 +14444,14 @@ struct retro_core_options_v2 options_es = {
 #define PCE_TURBO_TOGGLING_LABEL_FA NULL
 #define PCE_TURBO_TOGGLING_INFO_0_FA NULL
 #define OPTION_VAL_TOGGLE_FA NULL
-#define OPTION_VAL_ALWAYS_FA NULL
+#define OPTION_VAL_ALWAYS_FA "اختصاصی"
 #define PCE_TURBO_TOGGLE_HOTKEY_LABEL_FA NULL
 #define PCE_TURBO_TOGGLE_HOTKEY_INFO_0_FA NULL
 #define PCE_TURBO_DELAY_LABEL_FA NULL
 #define PCE_TURBO_DELAY_INFO_0_FA NULL
-#define OPTION_VAL_FAST_FA NULL
-#define OPTION_VAL_MEDIUM_FA NULL
-#define OPTION_VAL_SLOW_FA NULL
+#define OPTION_VAL_FAST_FA "سریع"
+#define OPTION_VAL_MEDIUM_FA "متوسط"
+#define OPTION_VAL_SLOW_FA "آهسته"
 #define PCE_P0_TURBO_I_ENABLE_LABEL_FA NULL
 #define PCE_P0_TURBO_II_ENABLE_LABEL_FA NULL
 #define PCE_P1_TURBO_I_ENABLE_LABEL_FA NULL
@@ -16267,49 +17223,49 @@ struct retro_core_options_v2 options_fr = {
 /* RETRO_LANGUAGE_GL */
 
 #define CATEGORY_VIDEO_LABEL_GL "Vídeo"
-#define CATEGORY_VIDEO_INFO_0_GL NULL
+#define CATEGORY_VIDEO_INFO_0_GL "Configura a relación de aspecto, o recorte da pantalla e outros parámetros de saída da imaxe."
 #define CATEGORY_AUDIO_LABEL_GL "Son"
-#define CATEGORY_AUDIO_INFO_0_GL NULL
+#define CATEGORY_AUDIO_INFO_0_GL "Configurar dispositivos de audio emulados."
 #define CATEGORY_INPUT_LABEL_GL "Entrada"
-#define CATEGORY_INPUT_INFO_0_GL NULL
+#define CATEGORY_INPUT_INFO_0_GL "Configura a entrada de pistola, rato e controlador."
 #define CATEGORY_HACKS_LABEL_GL "Hacks de emulación"
 #define CATEGORY_HACKS_INFO_0_GL "Configurar os parámetros do overclocking e a precisión da emulación do procesador que afecten ó rendemento e á compatibilidade de baixo nivel."
-#define CATEGORY_CD_LABEL_GL NULL
-#define CATEGORY_CD_INFO_0_GL NULL
-#define PCE_PALETTE_LABEL_GL NULL
-#define PCE_PALETTE_INFO_0_GL NULL
+#define CATEGORY_CD_LABEL_GL "CD de PC Engine"
+#define CATEGORY_CD_INFO_0_GL "Configure os axustes relacionados coa emulación de CD de PC Engine."
+#define PCE_PALETTE_LABEL_GL "Paleta de cores"
+#define PCE_PALETTE_INFO_0_GL "Composto tenta recrear a saída orixinal da consola e pode mostrar máis detalles nalgúns xogos."
 #define OPTION_VAL_RGB_GL NULL
-#define OPTION_VAL_COMPOSITE_GL NULL
-#define PCE_ASPECT_RATIO_LABEL_GL NULL
-#define PCE_ASPECT_RATIO_INFO_0_GL NULL
+#define OPTION_VAL_COMPOSITE_GL "Composto"
+#define PCE_ASPECT_RATIO_LABEL_GL "Relación de aspecto"
+#define PCE_ASPECT_RATIO_INFO_0_GL "Escolla a relación de aspecto do contido preferida. Isto só se aplicará cando a relación de aspecto de RetroArch estea definida como \"Núcleo proporcionado\" na configuración de vídeo."
 #define OPTION_VAL_AUTO_GL NULL
 #define OPTION_VAL_6_5_GL NULL
 #define OPTION_VAL_4_3_GL NULL
-#define OPTION_VAL_UNCORRECTED_GL NULL
-#define PCE_SCALING_LABEL_GL NULL
-#define PCE_SCALING_INFO_0_GL NULL
-#define OPTION_VAL_LORES_GL NULL
-#define OPTION_VAL_HIRES_GL NULL
-#define PCE_HIRES_BLEND_LABEL_GL NULL
-#define PCE_HIRES_BLEND_INFO_0_GL NULL
-#define PCE_H_OVERSCAN_LABEL_GL NULL
-#define PCE_H_OVERSCAN_INFO_0_GL NULL
-#define PCE_INITIAL_SCANLINE_LABEL_GL NULL
-#define PCE_INITIAL_SCANLINE_INFO_0_GL NULL
-#define OPTION_VAL_3_GL NULL
-#define PCE_LAST_SCANLINE_LABEL_GL NULL
-#define PCE_LAST_SCANLINE_INFO_0_GL NULL
-#define OPTION_VAL_242_GL NULL
-#define PCE_PSGREVISION_LABEL_GL NULL
-#define PCE_PSGREVISION_INFO_0_GL NULL
+#define OPTION_VAL_UNCORRECTED_GL "Sen corrixir"
+#define PCE_SCALING_LABEL_GL "Escalado de resolución"
+#define PCE_SCALING_INFO_0_GL "\"Automático\" permitirá que a resolución cambie. A 'baixa resolución' pode esmagar píxeles. \"Alta resolución\" permanecerá no ancho máximo."
+#define OPTION_VAL_LORES_GL "Baixa resolución"
+#define OPTION_VAL_HIRES_GL "Alta resolución"
+#define PCE_HIRES_BLEND_LABEL_GL "Forza de mestura de alta resolución"
+#define PCE_HIRES_BLEND_INFO_0_GL "Combina píxeles cando estás en modo de alta resolución. Os valores máis altos desenfocarán máis a imaxe."
+#define PCE_H_OVERSCAN_LABEL_GL "Mostrar Overscan horizontal"
+#define PCE_H_OVERSCAN_INFO_0_GL "'Auto' tentará adaptarse aos xogos, recortando áreas baleiras."
+#define PCE_INITIAL_SCANLINE_LABEL_GL "Liña de exploración inicial"
+#define PCE_INITIAL_SCANLINE_INFO_0_GL "Primeira liña de escaneo renderizada. Os valores máis altos recortarán a parte superior da imaxe."
+#define OPTION_VAL_3_GL "3 (predeterminado)"
+#define PCE_LAST_SCANLINE_LABEL_GL "Última liña de exploración"
+#define PCE_LAST_SCANLINE_INFO_0_GL "Última liña de exploración renderizada. Os valores máis baixos recortarán a parte inferior da imaxe."
+#define OPTION_VAL_242_GL "242 (predeterminado)"
+#define PCE_PSGREVISION_LABEL_GL "Chip de audio do PSG (necesario reiniciar)"
+#define PCE_PSGREVISION_INFO_0_GL "HuC6280 representa o PC Engine orixinal, HuC6280A o SuperGrafx e CoreGrafx I."
 #define OPTION_VAL_HUC6280_GL NULL
 #define OPTION_VAL_HUC6280A_GL NULL
-#define PCE_RESAMP_QUALITY_LABEL_GL NULL
-#define PCE_RESAMP_QUALITY_INFO_0_GL NULL
-#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_GL NULL
-#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_GL NULL
-#define PCE_MOUSE_SENSITIVITY_LABEL_GL NULL
-#define PCE_MOUSE_SENSITIVITY_INFO_0_GL NULL
+#define PCE_RESAMP_QUALITY_LABEL_GL "Calidade do remuestreador de curuxa"
+#define PCE_RESAMP_QUALITY_INFO_0_GL "Os valores máis altos proporcionan unha mellor relación sinal-ruído e preservan as frecuencias máis altas, pero aumentan o custo de cálculo e poden provocar unha maior latencia e recorte se o volume se configura demasiado alto."
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_GL "Mostrar configuración avanzada de entrada/turbo"
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_GL "Mostrar Multitap, Mouse, Turbo Buttons e parámetros avanzados. NOTA: É posible que teñas que volver ao xogo e volver entrar no menú para actualizar a lista."
+#define PCE_MOUSE_SENSITIVITY_LABEL_GL "Sensibilidade do rato"
+#define PCE_MOUSE_SENSITIVITY_INFO_0_GL "Os valores máis altos farán que o cursor do rato se mova máis rápido."
 #define OPTION_VAL_0_125_GL NULL
 #define OPTION_VAL_0_250_GL NULL
 #define OPTION_VAL_0_375_GL NULL
@@ -16335,35 +17291,35 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_4_50_GL NULL
 #define OPTION_VAL_4_75_GL NULL
 #define OPTION_VAL_5_00_GL NULL
-#define PCE_UP_DOWN_ALLOWED_LABEL_GL NULL
-#define PCE_UP_DOWN_ALLOWED_INFO_0_GL NULL
-#define PCE_DISABLE_SOFTRESET_LABEL_GL NULL
-#define PCE_DISABLE_SOFTRESET_INFO_0_GL NULL
-#define PCE_MULTITAP_LABEL_GL NULL
-#define PCE_MULTITAP_INFO_0_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_GL NULL
-#define OPTION_VAL_2_BUTTONS_GL NULL
-#define OPTION_VAL_6_BUTTONS_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P3_INFO_0_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P4_LABEL_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P4_INFO_0_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P5_LABEL_GL NULL
-#define PCE_DEFAULT_JOYPAD_TYPE_P5_INFO_0_GL NULL
-#define PCE_TURBO_TOGGLING_LABEL_GL NULL
-#define PCE_TURBO_TOGGLING_INFO_0_GL NULL
-#define OPTION_VAL_TOGGLE_GL NULL
-#define OPTION_VAL_ALWAYS_GL NULL
-#define PCE_TURBO_TOGGLE_HOTKEY_LABEL_GL NULL
-#define PCE_TURBO_TOGGLE_HOTKEY_INFO_0_GL NULL
-#define PCE_TURBO_DELAY_LABEL_GL NULL
-#define PCE_TURBO_DELAY_INFO_0_GL NULL
-#define OPTION_VAL_FAST_GL NULL
-#define OPTION_VAL_MEDIUM_GL NULL
-#define OPTION_VAL_SLOW_GL NULL
+#define PCE_UP_DOWN_ALLOWED_LABEL_GL "Permitir direccións opostas"
+#define PCE_UP_DOWN_ALLOWED_INFO_0_GL "Activar isto permitirá premer / alternar rapidamente / manter as dúas direccións esquerda e dereita (ou arriba e abaixo) ao mesmo tempo. Isto pode causar fallos baseados no movemento."
+#define PCE_DISABLE_SOFTRESET_LABEL_GL "Desactivar reinicio suave (RUN+SELECT)"
+#define PCE_DISABLE_SOFTRESET_INFO_0_GL "Cando se preme RUN e SELECT simultaneamente, desactive os dous botóns temporalmente en lugar de restablecer."
+#define PCE_MULTITAP_LABEL_GL "Controlador multitap de 5 portos"
+#define PCE_MULTITAP_INFO_0_GL "Activa a emulación multitap de ata 5 xogadores. Desactivar isto só é necesario nalgúns casos (por exemplo, Cho Aniki)."
+#define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_GL "P1 Tipo de Joypad predeterminado"
+#define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_GL "Escolla se o mando do porto 1 debe ser de 2 ou 6 botóns por defecto. Esta opción só se aplica cando se inicia o núcleo, se queres cambiar mentres o contido está en execución, usa o botón \"Cambio de modo\". NOTA: O mando de 6 botóns pode ter comportamentos estraños en xogos non compatibles."
+#define OPTION_VAL_2_BUTTONS_GL "2 Botóns"
+#define OPTION_VAL_6_BUTTONS_GL "6 Botóns"
+#define PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_GL "P2 Tipo de Joypad predeterminado"
+#define PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_GL "Escolla se o mando do porto 2 debe ter 2 ou 6 botóns por defecto. Esta opción só se aplica cando se inicia o núcleo, se queres cambiar mentres o contido está en execución, usa o botón \"Cambio de modo\". NOTA: O mando de 6 botóns pode ter comportamentos estraños en xogos non compatibles."
+#define PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_GL "P3 Tipo de Joypad predeterminado"
+#define PCE_DEFAULT_JOYPAD_TYPE_P3_INFO_0_GL "Escolla se o mando do porto 3 debe ter 2 ou 6 botóns por defecto. Esta opción só se aplica cando se inicia o núcleo, se queres cambiar mentres o contido está en execución, usa o botón \"Cambio de modo\". NOTA: O mando de 6 botóns pode ter comportamentos estraños en xogos non compatibles."
+#define PCE_DEFAULT_JOYPAD_TYPE_P4_LABEL_GL "P4 Tipo de Joypad predeterminado"
+#define PCE_DEFAULT_JOYPAD_TYPE_P4_INFO_0_GL "Escolla se o mando do porto 4 debe ter 2 ou 6 botóns por defecto. Esta opción só se aplica cando se inicia o núcleo, se queres cambiar mentres o contido está en execución, usa o botón \"Cambio de modo\". NOTA: O mando de 6 botóns pode ter comportamentos estraños en xogos non compatibles."
+#define PCE_DEFAULT_JOYPAD_TYPE_P5_LABEL_GL "P5 Tipo de Joypad predeterminado"
+#define PCE_DEFAULT_JOYPAD_TYPE_P5_INFO_0_GL "Escolla se o mando do porto 5 debe ter 2 ou 6 botóns por defecto. Esta opción só se aplica cando se inicia o núcleo, se queres cambiar mentres o contido está en execución, usa o botón \"Cambio de modo\". NOTA: O mando de 6 botóns pode ter comportamentos estraños en xogos non compatibles."
+#define PCE_TURBO_TOGGLING_LABEL_GL "Modo de teclas rápidas Turbo"
+#define PCE_TURBO_TOGGLING_INFO_0_GL "Activa os botóns turbo. As teclas de acceso rápido (botóns III e IV) poden comportarse como interruptores de conmutación ou como botóns turbo dedicados (manteña para usar)."
+#define OPTION_VAL_TOGGLE_GL "Alternar"
+#define OPTION_VAL_ALWAYS_GL "Dedicado"
+#define PCE_TURBO_TOGGLE_HOTKEY_LABEL_GL "Tecla de acceso rápido Turbo alternativa"
+#define PCE_TURBO_TOGGLE_HOTKEY_INFO_0_GL "Asigne os botóns L3/R3 de RetroPad como teclas de acceso rápido turbo en lugar dos botóns III e IV. Funciona só no modo \"Alterar\" e só sempre que non teña nada asignado aos botóns L3/R3. Con isto, pode evitar reasignar os botóns III e IV ao cambiar ao modo de controlador de 6 botóns."
+#define PCE_TURBO_DELAY_LABEL_GL "Velocidade turbo"
+#define PCE_TURBO_DELAY_INFO_0_GL "Escolla a rapidez con que se repiten as pulsacións dos botóns."
+#define OPTION_VAL_FAST_GL "Rápido"
+#define OPTION_VAL_MEDIUM_GL "Medio"
+#define OPTION_VAL_SLOW_GL "Lento"
 #define PCE_P0_TURBO_I_ENABLE_LABEL_GL NULL
 #define PCE_P0_TURBO_II_ENABLE_LABEL_GL NULL
 #define PCE_P1_TURBO_I_ENABLE_LABEL_GL NULL
@@ -16374,38 +17330,38 @@ struct retro_core_options_v2 options_fr = {
 #define PCE_P3_TURBO_II_ENABLE_LABEL_GL NULL
 #define PCE_P4_TURBO_I_ENABLE_LABEL_GL NULL
 #define PCE_P4_TURBO_II_ENABLE_LABEL_GL NULL
-#define PCE_CDIMAGECACHE_LABEL_GL NULL
-#define PCE_CDIMAGECACHE_INFO_0_GL NULL
-#define PCE_CDBIOS_LABEL_GL NULL
-#define PCE_CDBIOS_INFO_0_GL NULL
-#define OPTION_VAL_GAMES_EXPRESS_GL NULL
-#define OPTION_VAL_SYSTEM_CARD_1_GL NULL
-#define OPTION_VAL_SYSTEM_CARD_2_GL NULL
-#define OPTION_VAL_SYSTEM_CARD_3_GL NULL
-#define OPTION_VAL_SYSTEM_CARD_2_US_GL NULL
-#define OPTION_VAL_SYSTEM_CARD_3_US_GL NULL
-#define PCE_ARCADECARD_LABEL_GL NULL
-#define PCE_ARCADECARD_INFO_0_GL NULL
-#define PCE_CDSPEED_LABEL_GL NULL
-#define PCE_CDSPEED_LABEL_CAT_GL NULL
-#define PCE_CDSPEED_INFO_0_GL NULL
-#define PCE_ADPCMEXTRAPREC_LABEL_GL NULL
-#define PCE_ADPCMEXTRAPREC_LABEL_CAT_GL NULL
-#define PCE_ADPCMEXTRAPREC_INFO_0_GL NULL
+#define PCE_CDIMAGECACHE_LABEL_GL "Caché de imaxes de CD (necesario reiniciar)"
+#define PCE_CDIMAGECACHE_INFO_0_GL "Carga a imaxe completa na memoria ao iniciar. Pode diminuír os tempos de carga a costa dun aumento do tempo de inicio."
+#define PCE_CDBIOS_LABEL_GL "Bios do CD (reinicio necesario)"
+#define PCE_CDBIOS_INFO_0_GL "A maioría dos xogos poden executarse na \"Tarxeta do sistema 3\". Necesítase 'Games Express' para varios xogos sen licenza."
+#define OPTION_VAL_GAMES_EXPRESS_GL "Xogos Express"
+#define OPTION_VAL_SYSTEM_CARD_1_GL "Tarxeta do sistema 1"
+#define OPTION_VAL_SYSTEM_CARD_2_GL "Tarxeta do sistema 2"
+#define OPTION_VAL_SYSTEM_CARD_3_GL "Tarxeta do sistema 3"
+#define OPTION_VAL_SYSTEM_CARD_2_US_GL "Tarxeta do sistema 2 US"
+#define OPTION_VAL_SYSTEM_CARD_3_US_GL "Tarxeta do sistema 3 US"
+#define PCE_ARCADECARD_LABEL_GL "Tarxeta Arcade (reinicio necesario)"
+#define PCE_ARCADECARD_INFO_0_GL "Deixa esta opción activada para permitir os modos mellorados dos xogos SCD mellorados con ACD."
+#define PCE_CDSPEED_LABEL_GL "(CD) Velocidade do CD"
+#define PCE_CDSPEED_LABEL_CAT_GL "Velocidade do CD"
+#define PCE_CDSPEED_INFO_0_GL "Os valores máis altos permiten tempos de carga máis rápidos, pero poden causar problemas con un par de xogos."
+#define PCE_ADPCMEXTRAPREC_LABEL_GL "(CD) Precisión ADPCM"
+#define PCE_ADPCMEXTRAPREC_LABEL_CAT_GL "Precisión ADPCM"
+#define PCE_ADPCMEXTRAPREC_INFO_0_GL "A precisión total de 12 bits para o predictor ADPCM MSM5205 pode reducir o ruído de queixo durante a reprodución ADPCM."
 #define OPTION_VAL_10_BIT_GL NULL
 #define OPTION_VAL_12_BIT_GL NULL
-#define PCE_ADPCMVOLUME_LABEL_GL NULL
-#define PCE_ADPCMVOLUME_LABEL_CAT_GL NULL
-#define PCE_ADPCMVOLUME_INFO_0_GL NULL
-#define PCE_ADPCMVOLUME_INFO_1_GL NULL
-#define PCE_CDDAVOLUME_LABEL_GL NULL
-#define PCE_CDDAVOLUME_LABEL_CAT_GL NULL
-#define PCE_CDPSGVOLUME_LABEL_GL NULL
-#define PCE_CDPSGVOLUME_LABEL_CAT_GL NULL
-#define PCE_NOSPRITELIMIT_LABEL_GL NULL
-#define PCE_NOSPRITELIMIT_INFO_0_GL NULL
-#define PCE_OCMULTIPLIER_LABEL_GL NULL
-#define PCE_OCMULTIPLIER_INFO_0_GL NULL
+#define PCE_ADPCMVOLUME_LABEL_GL "(CD) % volume ADPCM"
+#define PCE_ADPCMVOLUME_LABEL_CAT_GL "% volume ADPCM"
+#define PCE_ADPCMVOLUME_INFO_0_GL "Só xogo en CD. Axustar este control de volume demasiado alto pode provocar recortes de mostra."
+#define PCE_ADPCMVOLUME_INFO_1_GL "Axustar este control de volume demasiado alto pode provocar recortes de mostra."
+#define PCE_CDDAVOLUME_LABEL_GL "(CD) CDDA % volume"
+#define PCE_CDDAVOLUME_LABEL_CAT_GL "% volume CDDA"
+#define PCE_CDPSGVOLUME_LABEL_GL "(CD) CD PSG % volume"
+#define PCE_CDPSGVOLUME_LABEL_CAT_GL "% volume do CD PSG"
+#define PCE_NOSPRITELIMIT_LABEL_GL "Sen límite de sprites"
+#define PCE_NOSPRITELIMIT_INFO_0_GL "Elimina o límite de hardware de 16 sprites por liña de exploración. ADVERTENCIA: pode provocar fallos gráficos nalgúns xogos (como Bloody Wolf)."
+#define PCE_OCMULTIPLIER_LABEL_GL "Multiplicador de overclock da CPU"
+#define PCE_OCMULTIPLIER_INFO_0_GL "Os valores máis altos poden reducir as desaceleracións nos xogos. AVISO: pode causar fallos e fallos."
 
 struct retro_core_option_v2_category option_cats_gl[] = {
    {
@@ -20124,7 +21080,7 @@ struct retro_core_options_v2 options_hu = {
 #define PCE_LAST_SCANLINE_LABEL_ID NULL
 #define PCE_LAST_SCANLINE_INFO_0_ID NULL
 #define OPTION_VAL_242_ID NULL
-#define PCE_PSGREVISION_LABEL_ID NULL
+#define PCE_PSGREVISION_LABEL_ID "Cip Audio PSG (Perlu Mulai Ulang)"
 #define PCE_PSGREVISION_INFO_0_ID NULL
 #define OPTION_VAL_HUC6280_ID NULL
 #define OPTION_VAL_HUC6280A_ID NULL
@@ -20198,9 +21154,9 @@ struct retro_core_options_v2 options_hu = {
 #define PCE_P3_TURBO_II_ENABLE_LABEL_ID NULL
 #define PCE_P4_TURBO_I_ENABLE_LABEL_ID NULL
 #define PCE_P4_TURBO_II_ENABLE_LABEL_ID NULL
-#define PCE_CDIMAGECACHE_LABEL_ID NULL
+#define PCE_CDIMAGECACHE_LABEL_ID "Tembolok Citra CD (Perlu Mulai Ulang)"
 #define PCE_CDIMAGECACHE_INFO_0_ID NULL
-#define PCE_CDBIOS_LABEL_ID NULL
+#define PCE_CDBIOS_LABEL_ID "Bios CD (Perlu Mulai Ulang)"
 #define PCE_CDBIOS_INFO_0_ID NULL
 #define OPTION_VAL_GAMES_EXPRESS_ID NULL
 #define OPTION_VAL_SYSTEM_CARD_1_ID NULL
@@ -20208,7 +21164,7 @@ struct retro_core_options_v2 options_hu = {
 #define OPTION_VAL_SYSTEM_CARD_3_ID NULL
 #define OPTION_VAL_SYSTEM_CARD_2_US_ID NULL
 #define OPTION_VAL_SYSTEM_CARD_3_US_ID NULL
-#define PCE_ARCADECARD_LABEL_ID NULL
+#define PCE_ARCADECARD_LABEL_ID "Arcade Card (Perlu Mulai Ulang)"
 #define PCE_ARCADECARD_INFO_0_ID NULL
 #define PCE_CDSPEED_LABEL_ID NULL
 #define PCE_CDSPEED_LABEL_CAT_ID NULL
@@ -20227,7 +21183,7 @@ struct retro_core_options_v2 options_hu = {
 #define PCE_CDPSGVOLUME_LABEL_ID NULL
 #define PCE_CDPSGVOLUME_LABEL_CAT_ID NULL
 #define PCE_NOSPRITELIMIT_LABEL_ID NULL
-#define PCE_NOSPRITELIMIT_INFO_0_ID NULL
+#define PCE_NOSPRITELIMIT_INFO_0_ID "Melepas batas 16 sprite tiap garis pindai peranti keras. PERINGATAN: Beberapa permainan akan kacau grafis (contohnya Bloody Wolf)."
 #define PCE_OCMULTIPLIER_LABEL_ID NULL
 #define PCE_OCMULTIPLIER_INFO_0_ID NULL
 
@@ -22009,7 +22965,7 @@ struct retro_core_options_v2 options_it = {
 #define CATEGORY_INPUT_LABEL_JA "入力"
 #define CATEGORY_INPUT_INFO_0_JA "ライトガン、マウスおよびコントローラーの入力を設定します。"
 #define CATEGORY_HACKS_LABEL_JA "エミュレーションハック"
-#define CATEGORY_HACKS_INFO_0_JA "低レベルパフォーマンスと互換性に影響を与えるプロセッサのオーバークロックとエミュレーション精度のパラメータを設定します。"
+#define CATEGORY_HACKS_INFO_0_JA "低レベルパフォーマンスと互換性に影響する、プロセッサのオーバークロックとエミュレーション精度のパラメータを設定します。"
 #define CATEGORY_CD_LABEL_JA "PC エンジン CD"
 #define CATEGORY_CD_INFO_0_JA "PC エンジン CD のエミュレーションに関連する設定を変更します。"
 #define PCE_PALETTE_LABEL_JA "カラーパレット"
@@ -22022,28 +22978,28 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_6_5_JA NULL
 #define OPTION_VAL_4_3_JA NULL
 #define OPTION_VAL_UNCORRECTED_JA "補正なし"
-#define PCE_SCALING_LABEL_JA NULL
-#define PCE_SCALING_INFO_0_JA NULL
+#define PCE_SCALING_LABEL_JA "解像度倍率"
+#define PCE_SCALING_INFO_0_JA "[自動] に設定すると、解像度の変更を許可します。[低解像度] はピクセルを押し縮めることができます。[高解像度] は最大幅を維持します。"
 #define OPTION_VAL_LORES_JA "低解像度"
 #define OPTION_VAL_HIRES_JA "高解像度"
-#define PCE_HIRES_BLEND_LABEL_JA NULL
-#define PCE_HIRES_BLEND_INFO_0_JA NULL
+#define PCE_HIRES_BLEND_LABEL_JA "高解像度ブレンディングの強さ"
+#define PCE_HIRES_BLEND_INFO_0_JA "高解像度モードを使用している場合、隣り合うピクセルをブレンドします。値を大きくするほど、画像がぼやけます。"
 #define PCE_H_OVERSCAN_LABEL_JA "水平オーバースキャンを表示"
-#define PCE_H_OVERSCAN_INFO_0_JA NULL
-#define PCE_INITIAL_SCANLINE_LABEL_JA "初期スキャンライン"
+#define PCE_H_OVERSCAN_INFO_0_JA "[自動] に設定すると、ゲームに応じて空白領域をトリミングします。"
+#define PCE_INITIAL_SCANLINE_LABEL_JA "開始スキャンライン"
 #define PCE_INITIAL_SCANLINE_INFO_0_JA "最初に描画されるスキャンラインです。値を大きくするほどイメージの上部がトリミングされます。"
 #define OPTION_VAL_3_JA "3 (デフォルト)"
-#define PCE_LAST_SCANLINE_LABEL_JA "最終スキャンライン"
+#define PCE_LAST_SCANLINE_LABEL_JA "終了スキャンライン"
 #define PCE_LAST_SCANLINE_INFO_0_JA "最後に描画されるスキャンラインです。値を小さくするほどイメージの下部がトリミングされます。"
 #define OPTION_VAL_242_JA "242 (デフォルト)"
 #define PCE_PSGREVISION_LABEL_JA "PSG オーディオチップ (再起動が必要)"
 #define PCE_PSGREVISION_INFO_0_JA "HuC6280 はオリジナルの PC エンジンを、HuC6280A はスーパーグラフィックスおよびコアグラフィックス I を表します。"
 #define OPTION_VAL_HUC6280_JA NULL
 #define OPTION_VAL_HUC6280A_JA NULL
-#define PCE_RESAMP_QUALITY_LABEL_JA NULL
-#define PCE_RESAMP_QUALITY_INFO_0_JA NULL
+#define PCE_RESAMP_QUALITY_LABEL_JA "Owl リサンプラー品質"
+#define PCE_RESAMP_QUALITY_INFO_0_JA "値を大きくするほど、S/N 比が向上し高音域を維持できますが、計算量が増加します。また、音量を高くしすぎるとレイテンシの増加と音割れが発生する可能性があります。"
 #define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_JA "高度な入力/ターボ設定を表示"
-#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_JA NULL
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_JA "マルチタップ、マウス、ターボボタンおよび高度なパラーメータを表示します。注意: リストを更新するには、ゲームに戻ってメニューを開き直す必要があります。"
 #define PCE_MOUSE_SENSITIVITY_LABEL_JA "マウス感度"
 #define PCE_MOUSE_SENSITIVITY_INFO_0_JA "値を大きくするほどマウスカーソルの動きが速くなります。"
 #define OPTION_VAL_0_125_JA NULL
@@ -22076,7 +23032,7 @@ struct retro_core_options_v2 options_it = {
 #define PCE_DISABLE_SOFTRESET_LABEL_JA "ソフトリセットを無効にする (RUN+SELECT)"
 #define PCE_DISABLE_SOFTRESET_INFO_0_JA "RUN と SELECT が同時に押された時に、リセットの代わりに一時的に両方のボタンを無効にします。"
 #define PCE_MULTITAP_LABEL_JA "マルチタップ 5 ポートコントローラー"
-#define PCE_MULTITAP_INFO_0_JA NULL
+#define PCE_MULTITAP_INFO_0_JA "最大 5 人までのマルチタップエミュレーションを有効にします。一部の例外 (超兄貴など) を除いて、無効にする必要はありません。"
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_JA "P1 デフォルトジョイパッドの種類"
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_JA "ポート 1 のジョイパッドをデフォルトで 2 または 6 ボタンにするかどうかを選択します。このオプションはコアの開始時にのみ適用されます。コンテンツの実行中に切り替えたい場合は、[モード切り替え] ボタンを使用してください。注意: 6 ボタンジョイパッドは互換性のないゲームで奇妙な動作をすることがあります。"
 #define OPTION_VAL_2_BUTTONS_JA "2 ボタン"
@@ -22090,13 +23046,13 @@ struct retro_core_options_v2 options_it = {
 #define PCE_DEFAULT_JOYPAD_TYPE_P5_LABEL_JA "P5 デフォルトジョイパッドの種類"
 #define PCE_DEFAULT_JOYPAD_TYPE_P5_INFO_0_JA "ポート 5 のジョイパッドをデフォルトで 2 または 6 ボタンにするかどうかを選択します。このオプションはコアの開始時にのみ適用されます。コンテンツの実行中に切り替えたい場合は、[モード切り替え] ボタンを使用してください。注意: 6 ボタンジョイパッドは互換性のないゲームで奇妙な動作をすることがあります。"
 #define PCE_TURBO_TOGGLING_LABEL_JA "ターボホットキーモード"
-#define PCE_TURBO_TOGGLING_INFO_0_JA NULL
+#define PCE_TURBO_TOGGLING_INFO_0_JA "ターボボタンを有効にします。ホットキー (ボタン III と IV) は、通常レトロパッドの A/B ボタンに割り当てられる ボタン I および ボタン II のターボのオン/オフ、またはボタン I/II の専用ターボボタンとして動作します。"
 #define OPTION_VAL_TOGGLE_JA "切り替え"
-#define OPTION_VAL_ALWAYS_JA NULL
+#define OPTION_VAL_ALWAYS_JA "長押し"
 #define PCE_TURBO_TOGGLE_HOTKEY_LABEL_JA "代替ターボホットキー"
 #define PCE_TURBO_TOGGLE_HOTKEY_INFO_0_JA "ボタン III と IV ではなく、レトロパッドの L3/R3 ボタンにターボホットキーを割り当てます。 [切り替え] モードかつ、L3/R3 に何も割り当てられていない場合にのみ動作します。これにより、6 ボタンコントローラーモードに切り替えた際、ボタン II および IV へのリマップを回避することができます。"
 #define PCE_TURBO_DELAY_LABEL_JA "ターボ速度"
-#define PCE_TURBO_DELAY_INFO_0_JA NULL
+#define PCE_TURBO_DELAY_INFO_0_JA "ボタンの連続入力の速さを選択します。"
 #define OPTION_VAL_FAST_JA "高速"
 #define OPTION_VAL_MEDIUM_JA "中"
 #define OPTION_VAL_SLOW_JA "遅い"
@@ -22127,20 +23083,20 @@ struct retro_core_options_v2 options_it = {
 #define PCE_CDSPEED_INFO_0_JA "値を大きくするほど読み込み時間を高速化できますが、いくつかのゲームで問題が発生する可能性があります。"
 #define PCE_ADPCMEXTRAPREC_LABEL_JA "(CD) ADPCM 精度"
 #define PCE_ADPCMEXTRAPREC_LABEL_CAT_JA "ADPCM 精度"
-#define PCE_ADPCMEXTRAPREC_INFO_0_JA NULL
+#define PCE_ADPCMEXTRAPREC_INFO_0_JA "MSM5205 ADPCM プレディクタを 12 ビットのフル精度でエミュレートすることで、ADPCM 再生時のヒスノイズを抑えることができます。"
 #define OPTION_VAL_10_BIT_JA NULL
 #define OPTION_VAL_12_BIT_JA NULL
 #define PCE_ADPCMVOLUME_LABEL_JA "(CD) ADPCM 音量 %"
 #define PCE_ADPCMVOLUME_LABEL_CAT_JA "ADPCM 音量 %"
 #define PCE_ADPCMVOLUME_INFO_0_JA "CD ゲームのみです。この音量を高く設定しすぎるとサンプルクリッピングが発生する可能性があります。"
-#define PCE_ADPCMVOLUME_INFO_1_JA NULL
+#define PCE_ADPCMVOLUME_INFO_1_JA "この音量を高く設定しすぎるとサンプルクリッピングが発生する可能性があります。"
 #define PCE_CDDAVOLUME_LABEL_JA "(CD) CDDA 音量 %"
 #define PCE_CDDAVOLUME_LABEL_CAT_JA "CD-DA 音量 %"
 #define PCE_CDPSGVOLUME_LABEL_JA "(CD) CD PSG 音量 %"
 #define PCE_CDPSGVOLUME_LABEL_CAT_JA "CD PSG 音量 %"
 #define PCE_NOSPRITELIMIT_LABEL_JA "スプライト制限なし"
-#define PCE_NOSPRITELIMIT_INFO_0_JA "スキャンラインあたりの16スプライトのハードウェア制限を削除します。警告: ゲームによってはグラフィックが乱れる可能性があります。(ブラッディーウルフなど)"
-#define PCE_OCMULTIPLIER_LABEL_JA "CPUオーバークロック倍率"
+#define PCE_NOSPRITELIMIT_INFO_0_JA "16 スプライト/スキャンラインのハードウェア制限を解除します。警告: ゲームによってはグラフィックが乱れる可能性があります (ブラッディウルフなど)。"
+#define PCE_OCMULTIPLIER_LABEL_JA "CPU オーバークロック倍率"
 #define PCE_OCMULTIPLIER_INFO_0_JA "値を大きくするほどゲームの実行速度の低下を軽減できます。警告: 不具合やクラッシュを引き起こす可能性があります。"
 
 struct retro_core_option_v2_category option_cats_ja[] = {
@@ -27766,10 +28722,10 @@ struct retro_core_options_v2 options_pl = {
 #define PCE_HIRES_BLEND_INFO_0_PT_BR "Mescla pixeis no modo de alta resolução. Valores maiores borrarão mais a imagem."
 #define PCE_H_OVERSCAN_LABEL_PT_BR "Mostrar overscan horizontal"
 #define PCE_H_OVERSCAN_INFO_0_PT_BR "\"Automática\" tentará se adaptar aos jogos, cortando áreas vazias."
-#define PCE_INITIAL_SCANLINE_LABEL_PT_BR "Linha de verificação inicial"
+#define PCE_INITIAL_SCANLINE_LABEL_PT_BR "Linha de varredura inicial"
 #define PCE_INITIAL_SCANLINE_INFO_0_PT_BR "Primeira linha de verificação renderizada. Valores maiores cortarão a parte superior da imagem."
 #define OPTION_VAL_3_PT_BR "3 (padrão)"
-#define PCE_LAST_SCANLINE_LABEL_PT_BR "Linha de verificação final"
+#define PCE_LAST_SCANLINE_LABEL_PT_BR "Linha de varredura final"
 #define PCE_LAST_SCANLINE_INFO_0_PT_BR "Última linha de verificação renderizada. Valores menores cortarão a parte inferior da imagem."
 #define OPTION_VAL_242_PT_BR "242 (padrão)"
 #define PCE_PSGREVISION_LABEL_PT_BR "Chip de áudio PSG (requer reinício)"
@@ -27778,7 +28734,7 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_HUC6280A_PT_BR NULL
 #define PCE_RESAMP_QUALITY_LABEL_PT_BR "Qualidade da reamostragem Owl"
 #define PCE_RESAMP_QUALITY_INFO_0_PT_BR "Valores maiores melhoram a relação sinal-ruído e preservam as frequências maiores, mas aumentam o custo computacional e podem causar maior latência e recorte caso o volume seja configurado muito alto."
-#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_PT_BR "Mostrar as configurações avançadas de entrada e do turbo"
+#define PCE_SHOW_ADVANCED_INPUT_SETTINGS_LABEL_PT_BR "Mostrar configurações avançadas de entrada/Turbo"
 #define PCE_SHOW_ADVANCED_INPUT_SETTINGS_INFO_0_PT_BR NULL
 #define PCE_MOUSE_SENSITIVITY_LABEL_PT_BR "Sensibilidade do mouse"
 #define PCE_MOUSE_SENSITIVITY_INFO_0_PT_BR "Valores maiores tornarão a movimentação do cursor do mouse mais rápida."
@@ -27808,15 +28764,15 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_4_75_PT_BR "4,75"
 #define OPTION_VAL_5_00_PT_BR "5,00"
 #define PCE_UP_DOWN_ALLOWED_LABEL_PT_BR "Permitir direções opostas"
-#define PCE_UP_DOWN_ALLOWED_INFO_0_PT_BR "Esta opção permitirá pressionar, alternar ou segurar rapidamente as direções esquerda e direita (ou cima e baixo) ao mesmo tempo. Pode causar falhas de movimento."
+#define PCE_UP_DOWN_ALLOWED_INFO_0_PT_BR "Permite pressionar, alternar ou segurar rapidamente as direções esquerda e direita (ou cima e baixo) ao mesmo tempo.\nOBSERVAÇÃO: pode causar problemas de movimentação."
 #define PCE_DISABLE_SOFTRESET_LABEL_PT_BR "Desativar a reinicialização suave (RUN+SELECT)"
 #define PCE_DISABLE_SOFTRESET_INFO_0_PT_BR "Ao pressionar RUN e SELECT simultaneamente, desativa ambos os botões temporariamente em vez de reinicializar."
 #define PCE_MULTITAP_LABEL_PT_BR "Multitap de 5 portas"
 #define PCE_MULTITAP_INFO_0_PT_BR "Ativa emulação de multitap de até 5 jogadores. A desativação é necessária em alguns casos (por ex. Cho Aniki)."
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_LABEL_PT_BR NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P1_INFO_0_PT_BR NULL
-#define OPTION_VAL_2_BUTTONS_PT_BR NULL
-#define OPTION_VAL_6_BUTTONS_PT_BR NULL
+#define OPTION_VAL_2_BUTTONS_PT_BR "2 botões"
+#define OPTION_VAL_6_BUTTONS_PT_BR "6 botões"
 #define PCE_DEFAULT_JOYPAD_TYPE_P2_LABEL_PT_BR NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P2_INFO_0_PT_BR NULL
 #define PCE_DEFAULT_JOYPAD_TYPE_P3_LABEL_PT_BR NULL
