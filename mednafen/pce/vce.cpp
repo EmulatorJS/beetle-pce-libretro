@@ -36,7 +36,7 @@
 vce_resolution_t vce_resolution;
 
 static bool hires;
-static int scanline_start, scanline_end;
+static int scanline_start, scanline_end=242;
 
 static struct
 {
@@ -47,7 +47,7 @@ static struct
 
 	int rate;
 	int line;
-} scanline_info[10];
+} scanline_info[16];
 
 static int scanline_info_count;
 
